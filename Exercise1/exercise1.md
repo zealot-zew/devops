@@ -1,0 +1,18 @@
+# Exercise 1
+
+## Steps of Execution
+
+### Run The following commands:
+
+minikube start
+
+kubectl run hello-k8s --image=nginx --port=80
+
+kubectl get pods
+
+kubectl expose pod hello-k8s --type=NodePort --port=80
+
+minikube service hello-k8s
+
+## Output
+
